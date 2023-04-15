@@ -1,0 +1,16 @@
+[10-Apr-2023 17:27:26 America/New_York] PHP Notice:  Undefined index: user in /home/thewpked/public_html/demos/urfonifix/header.php on line 81
+[10-Apr-2023 17:27:26 America/New_York] PHP Notice:  Undefined index: userID in /home/thewpked/public_html/demos/urfonifix/main-product.php on line 6
+[10-Apr-2023 17:27:26 America/New_York] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/thewpked/public_html/demos/urfonifix/db_controller.php on line 20
+[10-Apr-2023 17:27:26 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on bool in /home/thewpked/public_html/demos/urfonifix/db_controller.php:32
+Stack trace:
+#0 /home/thewpked/public_html/demos/urfonifix/shopping_cart.php(39): DBController->getDBResult('SELECT all_prod...', Array)
+#1 /home/thewpked/public_html/demos/urfonifix/main-product.php(45): ShoppingCart->getMemberCartItem(NULL)
+#2 {main}
+  thrown in /home/thewpked/public_html/demos/urfonifix/db_controller.php on line 32
+[14-Apr-2023 08:11:45 America/New_York] PHP Notice:  Undefined index: user in /home/thewpked/public_html/demos/urfonifix/header.php on line 81
+[14-Apr-2023 08:11:45 America/New_York] PHP Notice:  Undefined variable: currentPage in /home/thewpked/public_html/demos/urfonifix/header.php on line 119
+[14-Apr-2023 08:11:45 America/New_York] PHP Notice:  Undefined variable: currentPage in /home/thewpked/public_html/demos/urfonifix/header.php on line 124
+[14-Apr-2023 08:11:45 America/New_York] PHP Notice:  Undefined variable: currentPage in /home/thewpked/public_html/demos/urfonifix/header.php on line 129
+[14-Apr-2023 08:11:45 America/New_York] PHP Notice:  Undefined variable: currentPage in /home/thewpked/public_html/demos/urfonifix/header.php on line 134
+[14-Apr-2023 08:11:45 America/New_York] PHP Notice:  Undefined variable: currentPage in /home/thewpked/public_html/demos/urfonifix/header.php on line 139
+[15-Apr-2023 02:42:49 America/New_York] PHP Notice:  Undefined index: user in /home/thewpked/public_html/demos/urfonifix/header.php on line 81
